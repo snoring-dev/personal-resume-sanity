@@ -1,0 +1,12 @@
+*[_type == "resume"] {
+  title,
+  personal_data -> {
+    full_name,
+    job_title,
+    email,
+    phone,
+    address,
+    picture_url,
+    links
+  }
+}
