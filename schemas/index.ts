@@ -4,6 +4,7 @@ import keyValue from './key-value'
 import language from './language'
 import link from './link'
 import personalData from './personal-data'
+import project from './project'
 import resume from './resume'
 import skill from './skill'
 
@@ -16,4 +17,5 @@ export const schemaTypes = [
   skill,
   language,
   keyValue,
+  project,
 ]

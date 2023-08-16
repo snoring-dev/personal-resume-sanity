@@ -35,16 +35,15 @@ export default {
       title: 'Are you still working here?',
     },
     {
-      name: 'body',
-      title: 'Experience Body',
+      title: 'Projects',
+      name: 'projects',
       type: 'array',
-      of: [{type: 'block'}],
-    },
-    {
-      name: 'technical_stack',
-      title: 'Technical Stack',
-      type: 'array',
-      of: [{type: 'text'}],
+      of: [
+        {
+          type: 'reference',
+          to: [{type: 'project'}],
+        },
+      ],
     },
   ],
 }
