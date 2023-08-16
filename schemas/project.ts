@@ -9,6 +9,11 @@ export default {
       title: 'Title',
     },
     {
+      name: 'show_title',
+      type: 'boolean',
+      title: 'Show title?',
+    },
+    {
       name: 'body',
       title: 'Experience Body',
       type: 'array',
@@ -21,4 +26,7 @@ export default {
       of: [{type: 'text'}],
     },
   ],
+  initialValue: {
+    show_title: false,
+  },
 }

@@ -41,4 +41,7 @@ export default {
       of: [{type: 'block'}],
     }
   ],
+  initialValue: {
+    is_present: false,
+  },
 }

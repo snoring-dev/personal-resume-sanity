@@ -46,4 +46,7 @@ export default {
       ],
     },
   ],
+  initialValue: {
+    is_present: false,
+  },
 }
